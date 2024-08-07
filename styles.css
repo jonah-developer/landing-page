@@ -76,3 +76,14 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+.information-title {
+    font-weight: 900;
+}
+
+.image {
+    border: 3px solid #3882F6;
+    width: 130px;
+    height: 130px;
+    border-radius: 8px;
+}
