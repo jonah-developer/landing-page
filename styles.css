@@ -105,3 +105,18 @@ a {
 .information-title {
     margin-block: 32px;
 }
+
+.testimonials {
+    background-color: rgb(230, 230, 230);
+}
+
+.testimonials-quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.testimonials-author {
+    font-weight: bold;
+    font-size: 24px;
+}
