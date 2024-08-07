@@ -1,8 +1,12 @@
-body, h1, ul {
+body, h1, h2, ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
     font-family: Roboto, Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
 }
 
 a {
@@ -12,12 +16,15 @@ a {
 
 .header {
     background-color: #1F2937;
-    padding-inline: 200px;
+    padding-inline: 260px;
+    padding-top: 12px;
+    padding-bottom: 100px;
 }
 
 .header-title {
     font-size: 24px;
     color: #F9FAF8;
+    flex: 1;
 }
 
 .hero-title {
@@ -43,4 +50,29 @@ a {
 .image-placeholder {
     color: white;
     background-color: gray;
+}
+
+.header-container {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.links {
+    display: flex;
+    gap: 12px;
+}
+
+.hero {
+    display: flex;
+    gap: 24px;
+}
+
+.hero > div {
+    flex: 1;
+}
+
+.image-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
