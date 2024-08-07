@@ -1,0 +1,46 @@
+body, h1, ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.header {
+    background-color: #1F2937;
+    padding-inline: 200px;
+}
+
+.header-title {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-title {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.hero-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.button-signup {
+    color: white;
+    background-color: #3882F6;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.image-placeholder {
+    color: white;
+    background-color: gray;
+}
