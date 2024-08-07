@@ -108,6 +108,8 @@ a {
 
 .testimonials {
     background-color: rgb(230, 230, 230);
+    padding-inline: 320px;
+    padding-block: 100px;
 }
 
 .testimonials-quote {
@@ -119,4 +121,5 @@ a {
 .testimonials-author {
     font-weight: bold;
     font-size: 24px;
+    text-align: right;
 }
