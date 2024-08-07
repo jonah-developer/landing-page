@@ -16,7 +16,7 @@ a {
 
 .header {
     background-color: #1F2937;
-    padding-inline: 260px;
+    padding-inline: 220px;
     padding-top: 12px;
     padding-bottom: 100px;
 }
@@ -83,7 +83,25 @@ a {
 
 .image {
     border: 3px solid #3882F6;
-    width: 130px;
     height: 130px;
     border-radius: 8px;
+}
+
+.information {
+    text-align: center;
+    padding-bottom: 64px;
+}
+
+.information-container {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.information-container > div {
+    width: 150px;
+}
+
+.information-title {
+    margin-block: 32px;
 }
