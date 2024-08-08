@@ -123,3 +123,25 @@ a {
     font-size: 24px;
     text-align: right;
 }
+
+.signup-information {
+    background-color: #3882F6;
+    color: white;
+}
+
+.signup-title {
+    font-weight: 600;
+}
+
+.signup-text {
+    font-weight: lighter;
+}
+
+.signup-button {
+    background: none;
+    color: white;
+    border: 3px solid white;
+    border-radius: 8px;
+    padding: 8px 32px;
+    font-weight: 400;
+}
